@@ -1,0 +1,8 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: G:\YOLO8 MuseDash\data  # 数据集根目录，请更改为您自己的路径
+train: images/train  # 训练集图像（相对于 'path'）
+val: images/val  # 验证集图像（相对于 'path'）
+
+# 数据集类别数量和名称
+nc: 16  # 类别数量，应与 names 列表中的项数一致
+names: ['star', 'qishi', 'singer', 'OTTO', 'game_box', 'miao', 'chilun', 'zhuangyu', 'fish', 'chui', 'shabao', 'yinfu', 'hudie', 'ghost', 'eyu', 'robot']  # 类别名称列表
